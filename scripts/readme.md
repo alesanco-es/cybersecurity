@@ -1,4 +1,4 @@
-Sure! I’ll explain the **PowerShell script** step by step, so you can fully understand how it works.
+### Get-SysmonDNS.ps1 **PowerShell script** step by step
 
 ### 1. **Define the Sysmon Event ID for DNS Queries**
    ```powershell
@@ -118,5 +118,3 @@ UTCTime               ProcessID QueryName           QueryStatus IPv4Addresses   
 - **Process and User Correlation**: It shows which **process** and **user** made the DNS query, allowing for correlation with other activities, such as detecting which application is making suspicious network requests.
 
 This script can be helpful in **incident response** or **threat hunting** by identifying malicious domains, monitoring unexpected network traffic, and understanding which processes/users are initiating DNS queries.
-
-Let me know if you have any more questions or need further clarification!
